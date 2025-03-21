@@ -1,0 +1,5 @@
+name= input("enter the name")
+dob= input("enter the dob")
+gmail=input("enter the gmail")
+phno= input("enter the phno")
+print(name,dob,gmail,phno)
