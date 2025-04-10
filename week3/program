@@ -1,0 +1,19 @@
+def createlist(l,rangeofl):
+  for i in range(rangeofl):
+    temp=int(input("enter the elememts"))
+    l.append(temp)
+  return l
+  
+l1=[]
+l2=[]
+l3=[]
+rangeofl1=int(input("enter first list"))
+rangeofl2=int(input("enter second list"))
+rangeofl3=int(input("enter third list"))
+ 
+l1=createlist(l1,rangeofl1)
+print(l1)
+l2=createlist(l2,rangeofl2)
+print(l2)
+l3=createlist(l3,rangeofl3)
+print(l3) 
